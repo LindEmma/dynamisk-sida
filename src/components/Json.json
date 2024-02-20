@@ -1,0 +1,54 @@
+{
+  "Arbetslivserfarenhet": [
+    {
+      "id": 1,
+      "företag": "Riviera Blommor",
+      "detaljer": "Florist - deltid",
+      "datum": "7 januari 2022 - 14 februari 2023"
+    },
+    {
+      "id": 2,
+      "företag": "Herbanist",
+      "detaljer": "Florist - deltid",
+      "datum": "25 maj 2022 - 17 november 2022"
+    },
+    {
+      "id": 3,
+      "företag": "Buketten",
+      "detaljer": "Florist - sommarjobb",
+      "datum": "juni 2021 - september 2021"
+    },
+    {
+      "id": 4,
+      "företag": "Vivsta blomsterhandel",
+      "detaljer": "Praktik",
+      "datum": "6 april 2021 - 16 april 2021"
+    }
+  ],
+  "Utbildning": [
+    {
+      "id": 1,
+      "skola": "Edugrade",
+      "utbildning": "Systemutvecklare .NET med AI-kompetens",
+      "datum": "4 september 2023 - 18 april 2025"
+    },
+    {
+      "id": 2,
+      "skola": "Floristutbildningen Västernorrland",
+      "utbildning": "Florist - 2 år",
+      "datum": "23 augusti 2020 - 8 juni 2022"
+    },
+    {
+      "id": 3,
+      "skola": "Ålsta folkhögskola",
+      "utbildning": "Allmän utbildning",
+      "datum": "augusti 2019 - maj 2020"
+    },
+    {
+      "id": 4,
+      "skola": "Skvaderns gymnasieskola",
+      "utbildning": "Bild och formgivning",
+      "datum": "augusti 2013 - juni 2015"
+    }
+  ]
+}
