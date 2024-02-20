@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../assets/emma-gotland.jpg";
 
 export default function About() {
   const changeBackgroundColor = () => {
@@ -38,6 +39,11 @@ export default function About() {
             detta yrke!
           </p>
         </section>
+        <img
+          src={img}
+          alt="jag på gotland"
+          onClick={changeBackgroundColor}
+        />
       </article>
     </div>
   );
