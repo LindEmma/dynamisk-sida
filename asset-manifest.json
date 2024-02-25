@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dynamisk-sida/static/css/main.59dea084.css",
+    "main.css": "/dynamisk-sida/static/css/main.c8f18790.css",
     "main.js": "/dynamisk-sida/static/js/main.ef1ebb2b.js",
     "static/js/453.ed3810f9.chunk.js": "/dynamisk-sida/static/js/453.ed3810f9.chunk.js",
     "static/media/resumebild.jpg": "/dynamisk-sida/static/media/resumebild.a813c7a05ca689005902.jpg",
@@ -8,12 +8,12 @@
     "static/media/karim-ben-van-mKk2nnZ1EQk-unsplash.jpg": "/dynamisk-sida/static/media/karim-ben-van-mKk2nnZ1EQk-unsplash.7b0511bab42eb25fb2eb.jpg",
     "static/media/2.jpg": "/dynamisk-sida/static/media/2.7c69e23f5c31b8061d9d.jpg",
     "index.html": "/dynamisk-sida/index.html",
-    "main.59dea084.css.map": "/dynamisk-sida/static/css/main.59dea084.css.map",
+    "main.c8f18790.css.map": "/dynamisk-sida/static/css/main.c8f18790.css.map",
     "main.ef1ebb2b.js.map": "/dynamisk-sida/static/js/main.ef1ebb2b.js.map",
     "453.ed3810f9.chunk.js.map": "/dynamisk-sida/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59dea084.css",
+    "static/css/main.c8f18790.css",
     "static/js/main.ef1ebb2b.js"
   ]
 }
