@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dynamisk-sida/static/css/main.0229a196.css",
-    "main.js": "/dynamisk-sida/static/js/main.5c4fcd5f.js",
-    "static/js/453.ed3810f9.chunk.js": "/dynamisk-sida/static/js/453.ed3810f9.chunk.js",
+    "main.css": "/dynamisk-sida/static/css/main.406b6cb0.css",
+    "main.js": "/dynamisk-sida/static/js/main.dc6b0e8b.js",
+    "static/js/453.68693753.chunk.js": "/dynamisk-sida/static/js/453.68693753.chunk.js",
     "static/media/resumebild.jpg": "/dynamisk-sida/static/media/resumebild.a813c7a05ca689005902.jpg",
     "static/media/pexels-pixabay-433155.jpg": "/dynamisk-sida/static/media/pexels-pixabay-433155.5dbad9f5f0cc0175ac31.jpg",
     "static/media/emma-gotland.jpg": "/dynamisk-sida/static/media/emma-gotland.9c9dbff3e2107e68f508.jpg",
@@ -12,12 +12,12 @@
     "static/media/hs-pic.jpg": "/dynamisk-sida/static/media/hs-pic.9c340468ad17b5a5a1fa.jpg",
     "static/media/game-pic.avif": "/dynamisk-sida/static/media/game-pic.b12941dea8886e646070.avif",
     "index.html": "/dynamisk-sida/index.html",
-    "main.0229a196.css.map": "/dynamisk-sida/static/css/main.0229a196.css.map",
-    "main.5c4fcd5f.js.map": "/dynamisk-sida/static/js/main.5c4fcd5f.js.map",
-    "453.ed3810f9.chunk.js.map": "/dynamisk-sida/static/js/453.ed3810f9.chunk.js.map"
+    "main.406b6cb0.css.map": "/dynamisk-sida/static/css/main.406b6cb0.css.map",
+    "main.dc6b0e8b.js.map": "/dynamisk-sida/static/js/main.dc6b0e8b.js.map",
+    "453.68693753.chunk.js.map": "/dynamisk-sida/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0229a196.css",
-    "static/js/main.5c4fcd5f.js"
+    "static/css/main.406b6cb0.css",
+    "static/js/main.dc6b0e8b.js"
   ]
 }
