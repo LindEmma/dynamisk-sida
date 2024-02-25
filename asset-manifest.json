@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dynamisk-sida/static/css/main.9bc08e9e.css",
+    "main.css": "/dynamisk-sida/static/css/main.3bec1c81.css",
     "main.js": "/dynamisk-sida/static/js/main.1bf619e8.js",
     "static/js/453.68693753.chunk.js": "/dynamisk-sida/static/js/453.68693753.chunk.js",
     "static/media/resumebild.jpg": "/dynamisk-sida/static/media/resumebild.a813c7a05ca689005902.jpg",
@@ -12,12 +12,12 @@
     "static/media/hs-pic.jpg": "/dynamisk-sida/static/media/hs-pic.9c340468ad17b5a5a1fa.jpg",
     "static/media/game-pic.avif": "/dynamisk-sida/static/media/game-pic.b12941dea8886e646070.avif",
     "index.html": "/dynamisk-sida/index.html",
-    "main.9bc08e9e.css.map": "/dynamisk-sida/static/css/main.9bc08e9e.css.map",
+    "main.3bec1c81.css.map": "/dynamisk-sida/static/css/main.3bec1c81.css.map",
     "main.1bf619e8.js.map": "/dynamisk-sida/static/js/main.1bf619e8.js.map",
     "453.68693753.chunk.js.map": "/dynamisk-sida/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bc08e9e.css",
+    "static/css/main.3bec1c81.css",
     "static/js/main.1bf619e8.js"
   ]
 }
