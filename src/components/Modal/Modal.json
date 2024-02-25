@@ -1,0 +1,28 @@
+{
+  "Modals": [
+    {
+      "id": 1,
+      "title": "High School Database",
+      "paragraph1": "Detta program var mitt slutprojekt i kursen om databaser och SQL. Programmet är en konsollaplikation som med hjälp av entity framework kopplar upp mot en färdig databas i SSMS.",
+      "paragraph2": "Databasen består av bland annat elever, klasser, avdelningar, personal och kurser i en gymnasieskola. Programmet är till för att användaren enkelt ska kunna klicka sig till de uppgifter från databasen hen vill ta del av. Såsom betyg, löner, kursstarter med mera.",
+      "link": "https://github.com/LindEmma/HighSchoolProject.git",
+      "image": "./hs-pic.jpg"
+    },
+    {
+      "id": 2,
+      "title": "OOP - Arv",
+      "paragraph1": "I detta program visar jag att jag kan använda mig av arv(inheritance) i objektorienterad programmering",
+      "paragraph2": "Programmet är en konsollapplikation skriven i C# och består av klasser som symboliserar olika sorters djur och deras underarter. Djuren gör lite olika saker beorende på ras och art.",
+      "link": "https://github.com/LindEmma/OOP-Inheritance.git",
+      "image": "./arv-pic.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Numbers Game",
+      "paragraph1": "Detta program är en konsollapp skriven i C#. Det var ett av mina första program och är således ganska simpelt, men jag var stolt över det när det var klart.",
+      "paragraph2": "Numbers Game är ett frågespel med tre olika svårigheter. Spelet går ut på att gissa vilken siffra programmet tänker på varav datorn svarar om talet är för högt eller för lågt.",
+      "link": "https://github.com/LindEmma/NumbersGame.git",
+      "image": "./game-pic.avif"
+    }
+  ]
+}

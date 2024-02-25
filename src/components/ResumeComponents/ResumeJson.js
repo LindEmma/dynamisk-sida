@@ -1,21 +1,36 @@
 import React from "react";
 import resumeData from "./Json.json";
+import resumeImg from "./Picture/resumebild.jpg";
 
 const ResumeJson = () => {
   return (
     <article class="CV-content">
       <aside class="cv-aside">
         <img
-          src="images/IMG_20200512_193617_373.jpg"
+          src={resumeImg}
           alt="Bild på mig framför tegelvägg"
         />
         <h3>Sammanfattning</h3>
         <p>Jag är en driven programmeringsstudent med god analytisk förmåga</p>
         <h3>Kompetenser</h3>
+        <p>C# & .NET</p>
+        <p>SQL och databaser</p>
+        <p>Webbutveckling</p>
+        <p>Agila metoder</p>
+        <p>B-körkort</p>
+        <h3>Kontakt</h3>
+        <p>Nansta 215, Forsa</p>
+        <p>072-7345729</p>
+        <p>elune.lind@gmail.com</p>
+        <h3>Referenser</h3>
+        <p>Lämnas vid intresse</p>
+        <h3>Språk</h3>
+        <p>Svenska - modersmål</p>
+        <p>Engelska - flytande i tal och skrift</p>
       </aside>
 
       <div className="work-education">
-        <h1>Arbetslivserfarenhet</h1>
+        <h1 className="cv-list-title">Arbetslivserfarenhet</h1>
         {resumeData.Arbetslivserfarenhet.map((ae) => (
           <div key={ae.id}>
             <ul className="work-experience">
@@ -31,7 +46,7 @@ const ResumeJson = () => {
             </ul>
           </div>
         ))}
-        <h1>Utbildning</h1>
+        <h1 className="cv-list-title">Utbildning</h1>
         {resumeData.Utbildning.map((u) => (
           <div key={u.id}>
             <ul className="education">

@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Menu.css";
-import gitlogo from "../assets/github.png";
-import lilogo from "../assets/linkedIn.png";
+import gitlogo from "./icons/github.png";
+import lilogo from "./icons/linkedIn.png";
 const Menu = () => {
   return (
     <div className="navbar">
@@ -13,7 +13,7 @@ const Menu = () => {
               to="/home"
               className="nav-link"
             >
-              Home
+              Hem
             </Link>
           </li>
           <li>
@@ -21,7 +21,7 @@ const Menu = () => {
               to="/about"
               className="nav-link"
             >
-              About
+              Om mig
             </Link>
           </li>
           <li>
@@ -37,7 +37,7 @@ const Menu = () => {
               to="/resume"
               className="nav-link"
             >
-              Resume
+              CV
             </Link>
           </li>
           <li>
@@ -45,7 +45,7 @@ const Menu = () => {
               to="/contact"
               className="nav-link"
             >
-              Contact
+              Kontakt
             </Link>
           </li>
         </ul>

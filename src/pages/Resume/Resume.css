@@ -1,0 +1,81 @@
+.cv-aside img {
+  width: 80%;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+  border: 5px solid rgb(65, 55, 31);
+  border-radius: 50%;
+}
+.CV-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 40px;
+  max-width: 1900px;
+}
+.CV-content h1 {
+  text-shadow: none;
+}
+.cv-aside {
+  background-color: beige;
+  min-width: 200px;
+  width: 20%;
+  padding: 15px;
+  margin-left: 15%;
+  border: 2px solid rgb(65, 55, 31);
+}
+.cv-list-title {
+  border-bottom: 2px solid rgb(65, 55, 31);
+}
+.work-education h3 {
+  border-bottom: 3px solid rgb(65, 55, 31);
+}
+.work-education {
+  background-color: rgb(254, 254, 246);
+  min-width: 400px;
+  width: 40%;
+  padding-right: 20px;
+  margin-right: 15%;
+  border-top: 2px solid rgb(65, 55, 31);
+  border-bottom: 2px solid rgb(65, 55, 31);
+  border-right: 2px solid rgb(65, 55, 31);
+}
+.work-education ul {
+  list-style: none;
+}
+.work-education-description {
+  border-bottom: 2px solid rgb(80, 118, 76);
+  opacity: 0.7;
+}
+.date {
+  padding-right: 30px;
+  text-align: right;
+  width: 30%;
+  float: right;
+  font-size: smaller;
+}
+
+.dark {
+  .cv-aside {
+    background-color: rgb(34, 34, 34);
+    border: 2px solid rgb(255, 255, 255);
+  }
+  .work-education {
+    background-color: rgb(60, 60, 60);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+  }
+  .work-education li {
+    color: rgb(185, 239, 233);
+  }
+  .cv-list-title {
+    border-bottom: 2px solid rgb(255, 255, 255);
+  }
+  .work-education h3 {
+    border-bottom: 3px solid rgb(60, 103, 68);
+  }
+  .cv-aside img {
+    border: 5px solid rgba(212, 203, 182, 0.948);
+  }
+}

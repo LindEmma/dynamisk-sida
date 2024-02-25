@@ -1,42 +1,27 @@
-import React, { useState } from "react";
-
-const Modal = ({ isOpen, onClose, children }) => {
-  if (!isOpen) return null;
-  return (
-    <div
-      style={{
-        position: "fixed",
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        backgroundColor: "rgba(0, 0, 0, 0.5)",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <button onClick={onClose}>Stäng</button>
-    </div>
-  );
-};
+import React from "react";
+import Modal from "../components/Modal/Modal.js";
+import modalData from "../components/Modal/Modal.json";
 
 export default function Portfolio() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const openModal = () => setIsModalOpen(true);
-  const closeModal = () => setIsModalOpen(false);
-
   return (
-    <div>
+    <>
       <h1>Portfolio</h1>
-      <button onClick={openModal}>Visa modalen</button>
-      <Modal
-        isOpen={isModalOpen}
-        onClose={closeModal}
-      >
-        <p>Modalinnehållet</p>
-        <p>huhkjkhjh</p>
-      </Modal>
-    </div>
+      {modalData.Modals.map((m) => (
+        <div className="modals">
+          <div
+            key={m.id}
+            className="portfolio"
+          >
+            <Modal
+              titel={m.title}
+              p1={m.paragraph1}
+              p2={m.paragraph2}
+              link={m.link}
+              image={m.image}
+            ></Modal>
+          </div>
+        </div>
+      ))}
+    </>
   );
 }

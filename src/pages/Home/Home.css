@@ -1,0 +1,43 @@
+/*Home page*/
+
+#home {
+  margin: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#home h1 {
+  text-align: center;
+  font-size: 4em;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+#home h2 {
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 2px 2px #ffebc5;
+}
+#lia {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#home h3 {
+  color: rgb(69, 60, 38);
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Poppins, sans-serif;
+  padding: 10px;
+  background-color: rgb(255, 239, 191);
+  border-radius: 15%;
+}
+.dark {
+  #home h2 {
+    text-shadow: 2px 2px #133f41;
+  }
+  #home h3 {
+    color: rgb(38, 69, 69);
+    background-color: rgb(211, 209, 204);
+  }
+}

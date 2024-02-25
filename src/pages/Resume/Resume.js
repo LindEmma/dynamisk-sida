@@ -1,4 +1,5 @@
-import ResumeJson from "../components/ResumeJson";
+import ResumeJson from "../../components/ResumeComponents/ResumeJson";
+import "./Resume.css";
 
 export default function Resume() {
   return (
