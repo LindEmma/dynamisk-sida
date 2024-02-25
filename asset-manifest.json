@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dynamisk-sida/static/css/main.9bb6dc81.css",
-    "main.js": "/dynamisk-sida/static/js/main.cb223b9d.js",
+    "main.css": "/dynamisk-sida/static/css/main.aae97d52.css",
+    "main.js": "/dynamisk-sida/static/js/main.cbd1018c.js",
     "static/js/453.68693753.chunk.js": "/dynamisk-sida/static/js/453.68693753.chunk.js",
     "static/media/resumebild.jpg": "/dynamisk-sida/static/media/resumebild.a813c7a05ca689005902.jpg",
     "static/media/pexels-pixabay-433155.jpg": "/dynamisk-sida/static/media/pexels-pixabay-433155.5dbad9f5f0cc0175ac31.jpg",
@@ -12,12 +12,12 @@
     "static/media/hs-pic.jpg": "/dynamisk-sida/static/media/hs-pic.9c340468ad17b5a5a1fa.jpg",
     "static/media/game-pic.avif": "/dynamisk-sida/static/media/game-pic.b12941dea8886e646070.avif",
     "index.html": "/dynamisk-sida/index.html",
-    "main.9bb6dc81.css.map": "/dynamisk-sida/static/css/main.9bb6dc81.css.map",
-    "main.cb223b9d.js.map": "/dynamisk-sida/static/js/main.cb223b9d.js.map",
+    "main.aae97d52.css.map": "/dynamisk-sida/static/css/main.aae97d52.css.map",
+    "main.cbd1018c.js.map": "/dynamisk-sida/static/js/main.cbd1018c.js.map",
     "453.68693753.chunk.js.map": "/dynamisk-sida/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bb6dc81.css",
-    "static/js/main.cb223b9d.js"
+    "static/css/main.aae97d52.css",
+    "static/js/main.cbd1018c.js"
   ]
 }
