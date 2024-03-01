@@ -1,10 +1,15 @@
 import Form from "../components/Contact-form/Form";
 
+{
+  /* The contact page - imports a form from Form.js */
+}
 export default function Contact() {
   return (
-    <div className="contact-form">
-      <h1>Kontakt</h1>
-      <Form></Form>
-    </div>
+    <>
+      <h1 id="contact-h1">Kontakt</h1>
+      <div className="contact-container">
+        <Form></Form>
+      </div>
+    </>
   );
 }

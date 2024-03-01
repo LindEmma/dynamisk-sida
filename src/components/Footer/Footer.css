@@ -17,6 +17,12 @@
   color: rgb(255, 255, 255);
   text-align: center;
 }
+.icons {
+}
+.moon {
+  width: 40px;
+  height: auto;
+}
 .dark {
   .footer-container p {
     color: rgb(255, 255, 255);

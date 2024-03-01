@@ -3,11 +3,6 @@ import img from "./Image/emma-gotland.jpg";
 import "./About.css";
 
 export default function About() {
-  /*  const changeBackgroundColor = () => {
-    const myColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
-    document.body.style.backgroundColor = myColor;
-  }; */
-
   return (
     <div class="about-me-content">
       <article class="about-me">

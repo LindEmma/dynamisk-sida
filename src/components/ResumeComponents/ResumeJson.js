@@ -19,9 +19,9 @@ const ResumeJson = () => {
         <p>Agila metoder</p>
         <p>B-körkort</p>
         <h3>Kontakt</h3>
-        <p>Nansta 215, Forsa</p>
-        <p>072-7345729</p>
-        <p>elune.lind@gmail.com</p>
+        <p>Adress 1, ort</p>
+        <p>070-1234567</p>
+        <p>min-email@gmail.com</p>
         <h3>Referenser</h3>
         <p>Lämnas vid intresse</p>
         <h3>Språk</h3>
@@ -31,6 +31,8 @@ const ResumeJson = () => {
 
       <div className="work-education">
         <h1 className="cv-list-title">Arbetslivserfarenhet</h1>
+
+        {/* maps thrugh Json.json file to collect and showcase the resume */}
         {resumeData.Arbetslivserfarenhet.map((ae) => (
           <div key={ae.id}>
             <ul className="work-experience">

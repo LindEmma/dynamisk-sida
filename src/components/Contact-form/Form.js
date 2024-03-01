@@ -2,11 +2,11 @@ import "./Form.css";
 
 export default function Form() {
   return (
-    <div className="contact-form">
-      <form>
+    <>
+      {/* A simple contact-form, no backend yet.*/}
+      <form id="contact-form">
         <p>Vänligen fyll i uppgifterna nedan och skicka så återkommer jag!</p>
-        <br></br>
-        <label>Name</label>
+        <label>Namn</label>
         <input
           type="text"
           name="user_name"
@@ -18,7 +18,7 @@ export default function Form() {
           name="user_email"
         />
         <br></br>
-        <label>Message</label>
+        <label>Meddelande</label>
         <textarea
           name="message"
           type="message"
@@ -36,10 +36,10 @@ export default function Form() {
         <br />
         <input
           type="submit"
-          value="Send"
+          value="Skicka"
         />
       </form>
       <script></script>
-    </div>
+    </>
   );
 }

@@ -1,3 +1,5 @@
+/*Style sheet for the modals in portfolio page*/
+
 body.active-modal {
   overflow-y: hidden;
 }
@@ -7,28 +9,25 @@ body.active-modal {
   width: 400px;
 }
 .modal-container {
-  background-color: rgb(241, 236, 204);
-  width: 400px;
+  width: 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 20px;
-  margin: 20px;
+  margin-top: 20px;
   border-radius: 15%;
+  align-items: center;
 }
 .open-modal {
-  padding: 10px 20px;
-  display: block;
-  margin: 100px auto 0;
+  padding: 10px;
+  margin: 20px;
   font-size: 18px;
   display: flex;
   justify-content: center;
 }
-.open-modal img {
-  max-width: 300px;
-  width: 300px;
-  height: 200px;
-  border-radius: 5%;
+.modal {
+  display: flex;
+  justify-content: center;
 }
 .modal,
 .overlay {
@@ -43,7 +42,7 @@ body.active-modal {
 
 .overlay {
   background: rgb(255, 255, 255);
-  opacity: 0.2;
+  opacity: 0.7;
 }
 .modal-content {
   position: absolute;
@@ -51,12 +50,13 @@ body.active-modal {
   left: 50%;
   transform: translate(-50%, -50%);
   line-height: 1.4;
-  background: #f1f1f1;
+  background: #ffffff;
   padding: 14px 28px;
   border-radius: 3px;
   max-width: 600px;
   min-width: 300px;
   border-radius: 3%;
+  border: 2px solid rgb(74, 62, 27);
 
   a {
     text-align: center;
@@ -64,10 +64,18 @@ body.active-modal {
 }
 
 .close-modal {
+  border: none;
+  background: none;
   position: absolute;
-  top: 10px;
+  top: 15px;
   right: 10px;
-  padding: 5px 7px;
+  transition: ease filter, transform 0.3s;
+  cursor: pointer;
+  transform-origin: center;
+  &:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+  }
 }
 
 button.open-modal {
@@ -92,13 +100,17 @@ button.open-modal {
 }
 
 .dark {
-  .modal-container {
-    background-color: rgba(27, 72, 66, 0.997);
-  }
   button.open-modal:hover {
     box-shadow: 0 20px 20px -10px rgba(171, 255, 196, 0.818);
   }
+  button.open-modal {
+    background-color: rgba(27, 72, 66, 0.997);
+    box-shadow: 0 10px 20px -10px rgba(171, 255, 196, 0.818);
+  }
   .modal-content {
     background-color: #3a351d;
+  }
+  .modal-content a {
+    color: rgb(127, 206, 255);
   }
 }

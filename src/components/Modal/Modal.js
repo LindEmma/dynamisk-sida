@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./Modal.css";
 
+/* Modal function that takes props in order to create several modals from one function */
 export default function Modal(props) {
   const [modal, setModal] = useState(false);
 
+  /* modal opens if it's closed or closes if it's open, used on the buttons and overlay*/
   const toggleModal = () => {
     setModal(!modal);
   };
@@ -17,18 +19,13 @@ export default function Modal(props) {
 
   return (
     <div className="modal-container">
-      <h1>{props.titel}</h1>
       <button
         onClick={toggleModal}
         className="open-modal"
       >
-        <img
-          src={require(`${props.image}`)}
-          alt="product"
-        />
+        <h2>{props.titel}</h2>
       </button>
 
-      {/* If modal is true, return modal */}
       {modal && (
         <div className="modal">
           <div
@@ -38,18 +35,17 @@ export default function Modal(props) {
           <div className="modal-content">
             <h2>{props.titel}</h2>
             <p>{props.p1}</p>
-            <p>{props.p2}</p>
             <a
               href={props.link}
               target="_blank"
             >
-              Till github-repot!
+              Länk till github-repot!
             </a>
             <button
               className="close-modal"
               onClick={toggleModal}
             >
-              CLOSE
+              ❌
             </button>
           </div>
         </div>

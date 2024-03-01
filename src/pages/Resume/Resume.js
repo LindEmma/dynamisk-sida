@@ -1,6 +1,7 @@
 import ResumeJson from "../../components/ResumeComponents/ResumeJson";
 import "./Resume.css";
 
+/* imports resume from ResumeJson.js*/
 export default function Resume() {
   return (
     <div>

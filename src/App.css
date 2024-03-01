@@ -1,3 +1,5 @@
+/* Style for various part of the page*/
+
 body {
   display: flex;
   flex-direction: column;
@@ -84,15 +86,13 @@ body {
   /* BOX MODEL */
   width: 100%;
   height: auto;
-
-  /* ENHANCEMENT */
 }
 /*Portfolio page*/
 .portfolio {
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-content: center;
+  flex-wrap: wrap;
   width: 100%;
 }
 .modals {
@@ -105,15 +105,9 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-/* body {
-  background-image: url("./assets/backgrounds/1.jpg");
-  min-height: 100vh;
-}
-main {
-  min-height: 100vh;
-} */
+
 footer {
-  background-color: darkolivegreen;
+  background-color: rgb(255, 254, 236);
   margin-bottom: 0px;
   padding: 10px;
   opacity: 0.7;
@@ -125,7 +119,7 @@ footer {
 }
 .dark {
   footer {
-    background-color: #194739;
+    background-color: #000000;
   }
 }
 html {
@@ -133,12 +127,13 @@ html {
   padding: 0;
 }
 
-.contact-form {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.contact-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+}
+#contact-h1 {
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 form {
   margin: 20px;
@@ -167,74 +162,9 @@ input[type="submit"]:hover {
 
 /* css when screen is max 700px wide */
 @media screen and (max-width: 700px) {
-  .contact {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    padding: 20px;
-    width: 85%;
-    height: auto;
-    border: 1px solid #543f3f;
-    border-radius: 30px;
-    background-color: #fff6e2;
-  }
-  .date {
-    float: left;
-    text-align: left;
-    width: 100%;
-  }
-  .CV-content {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    width: 100%;
-    padding: 0;
-    align-items: center;
-  }
-  .cv-aside {
-    min-width: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    border-bottom: 2px solid rgb(65, 55, 31);
-    border-left: 2px solid rgb(65, 55, 31);
-  }
-  .work-education {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 40px;
-    margin-left: 0;
-    margin-right: 0;
-    padding-right: 0;
-    border-bottom: 0;
-    border-left: 2px solid rgb(65, 55, 31);
-    padding: 15px;
-  }
-  #home {
-    margin: 200px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  #home h1 {
-    font-size: 2.5em;
-  }
-  #home h2 {
-    font-size: 1.5em;
-  }
-  #home h3 {
-    font-size: 1em;
-  }
-  #home {
-    margin: 40px;
-  }
   .contact-container {
-    min-width: 400px;
+    min-width: none;
+    width: 100%;
   }
   /* For printing */
 }

@@ -1,8 +1,12 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./Menu.css";
 import gitlogo from "./icons/github.png";
 import lilogo from "./icons/linkedIn.png";
+
+{
+  /* Menu component with links to each page
+and icons with links to my linkedIn and github */
+}
 const Menu = () => {
   return (
     <div className="navbar">

@@ -1,21 +1,21 @@
-.contact-form {
+/* Style sheet for the contact form*/
+
+#contact-form {
   margin-top: 50px;
   margin-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 40px;
 }
 form {
   margin: 20px;
-  padding: 20px;
   width: 600px;
   height: auto;
   border: 1px solid #543f3f;
   border-radius: 30px;
   background-color: #fff6e2;
 }
-form p {
+#contact-form p {
   align-items: center;
+  font-size: 1.15em;
 }
 label {
   display: block;
@@ -28,37 +28,34 @@ input[type="submit"] {
   padding: 6px 10px;
   cursor: pointer;
   border-radius: 10%;
+  width: 100px;
 }
 input[type="submit"]:hover {
   background-color: rgb(80, 118, 76);
 }
 
 .dark {
-  input[type="text"] {
-    background-color: rgb(82, 97, 93);
-  }
-  input[type="email"] {
-    background-color: rgb(82, 97, 93);
-  }
-  input[type="text"] {
-    background-color: rgb(82, 97, 93);
-  }
-  input[type="checkbox"] {
-    background-color: rgb(82, 97, 93);
-  }
-  input[type="message"] {
-    background-color: rgb(82, 97, 93);
-  }
   form {
     background-color: rgba(42, 42, 42, 0.997);
+    border: 1px solid #acc8c3;
   }
   input[type="submit"]:hover {
     background-color: rgb(145, 231, 220);
   }
-  input[type="submit"] {
-    background-color: rgb(47, 101, 90);
-  }
   label {
     color: #fff6e2;
+  }
+}
+@media screen and (max-width: 700px) {
+  form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 40px;
+    width: 85%;
+    height: auto;
+    border-radius: 30px;
+    min-width: none;
   }
 }

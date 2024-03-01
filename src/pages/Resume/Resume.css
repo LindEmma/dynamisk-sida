@@ -1,3 +1,5 @@
+/*Style sheet for the resumé*/
+
 .cv-aside img {
   width: 80%;
   height: auto;
@@ -77,5 +79,45 @@
   }
   .cv-aside img {
     border: 5px solid rgba(212, 203, 182, 0.948);
+  }
+}
+@media screen and (max-width: 700px) {
+  .date {
+    float: left;
+    text-align: left;
+    width: 100%;
+  }
+  .CV-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+  }
+  .cv-aside {
+    min-width: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: 2px solid rgb(65, 55, 31);
+    border-left: 2px solid rgb(65, 55, 31);
+  }
+  .work-education {
+    min-width: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    border-bottom: 0;
+    border-left: 2px solid rgb(65, 55, 31);
+    padding: 15px;
   }
 }
